@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+        <head>
+                <title> formulaire en html css</title>
+                <meta charset=" utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="description" content="presentation du cv de ibrahima DIEYE">
+                <link rel="stylesheet" href="formulaire.css">
+        </head>
+
+        <body>
+            <h1>Veuillez remplir cette formulaire s'il vous plaît</h1>
+
+            <form action="post" method="formulaire.php">
+
+                <fieldset class="section1">
+                    <legend> Informention personnelle</legend><br><br>
+                    <label for="prenom">prenom</label> 
+                    <input type="text" id="prenom" name="prenom" placeholder="David"><br><br>
+                    <label for="nom">nom</label>
+                    <input type="text" id="nom" name="nom" placeholder="Prat"><br><br>
+                    <label for="email">email</label>
+                    <input type="email" id="email" name="email" placeholder="david.prat@gmail.com"><br><br>
+                    <label for="password">mot de passe</label>
+                    <input type="password" id="password" name="password"><br><br>
+
+                </fieldset><br><br>
+
+                <fieldset class="section2">
+
+                    <legend>université durant l'année universitaire 2021-2022</legend><br><br>
+                    <p> etiez vous étudiant d'aix marseille université durant l'année scolaire 2021-2022 ? </p><br><br>
+                    <input type="radio" id="amu" name="université" value="amu">
+                    <label for="amu">aix marseille université</label><br><br>
+                    <input type="radio" id="autre" name="université" value="autre">
+                    <label for="autre">autre</label><br><br>
+                    
+                </fieldset><br><br>
+
+                <fieldset class="section3">
+                    <legend>langages de programmation</legend><br><br>
+                    <p>quelles sont les langages de programmation que vous avez déja fait ? </p><br><br>
+                    <input type="checkbox" id="java" name="langages de programmation" value="java">
+                    <label for="java">java</label><br><br>
+                    <input type="checkbox" id="javvascript" name="langages de programmation" value="javascript">
+                    <label for="javascript">javascript</label><br><br>
+                    <input type="checkbox" id="html-css" name="langages de programmation" value="html-css">
+                    <label for="html-css">html-css</label><br><br>
+                    <input type="checkbox" id="php" name="langages de programmation" value="php">
+                    <label for="php">php</label><br><br>
+                    <input type="checkbox" id="base-de-donnée" name="langages de programmation" value="base-de-donnée">
+                    <label for="base-de-donnée">base de donnée</label>
+                    
+                </fieldset><br><br>
+
+                <fieldset class="section4">
+                    <legend >pays d'origine</legend><br><br>
+                    <p>quel est ton pays d'origine ?</p>
+                    <select name="pays">
+                        <option value="france">france</option>
+                        <option value="itali">itali</option>
+                        <option value="espagne">espagne</option>
+                        <option value="etats unis">etats unis</option>
+                        <option value="senegal">senegal</option>
+                        <option value="maroc">maroc</option>
+                        <option value="égypte">égypte</option>
+                        <option value="allemagne">allemagne</option>
+                        <option value="angleterre">angleterre</option>
+                    
+                    </select>
+
+                        
+
+
+                </fieldset><br><br>
+
+
+                
+                <a href="mailto:ibrahimadieye899@gmail.com"> <input type="submit" id="envoyer " name= " envoyer" value="envoyer"></a>
+                <a href="mailto:ibrahimadieye899@gmail.com"> <input type="reset" id="annuler " name= " annuler" value="annuler"></a>
+            
+            </form>
+            
+
+        </body>
+
+</html>
